@@ -28,7 +28,7 @@ const [date, setDate] = useState(new Date());
           {menuAberto && (
       <div className={style.perfil}>
           <h1 className={style.titlePremium} >Perfil </h1>
-              <div className="foto">foto de perfil</div>
+              <div className="foto">foto de perfil   aqui</div>
                    <h2> Usuario: <strong>{name}</strong></h2>
                       <p>{email}</p>
                       <p>telefone do usuario</p>  
