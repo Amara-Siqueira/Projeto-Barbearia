@@ -1,0 +1,65 @@
+{
+  "Pacotes": [
+    {
+      "id": "1",
+      "name": "Pacote Estilo Raiz",
+      "preco": "55",
+      "imagem": "https://images.pexels.com/photos/2809652/pexels-photo-2809652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "detalhes": [
+        "Corte clássico",
+        "Acerto de barba",
+        "Finalização com espuma + navalha",
+        "Café ou drink cortesia"
+      ]
+    },
+    {
+      "id": "2",
+      "imagem": "https://images.pexels.com/photos/3998429/pexels-photo-3998429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Pacote Lâmina de Rei",
+      "preco": 70,
+      "detalhes": [
+        "Corte degradê ou personalizado",
+        "Barba modelada + toalha quente",
+        "Massagem facial rápida",
+        "Finalização com produtos premium",
+        "Mini brinde (pomada ou shampoo de amostra)"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pacote Quebrada de Luxo",
+      "imagem": "https://images.pexels.com/photos/2076930/pexels-photo-2076930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "preco": 90,
+      "detalhes": [
+        "Corte + Barba + Sobrancelha",
+        "Hidratação capilar ou da barba",
+        "Massagem relaxante + toalha quente",
+        "Finalização com óleos especiais",
+        "Cartão fidelidade (corte grátis a cada 10)"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Pacote Tal Pai, Tal Filho",
+      "imagem": "https://images.pexels.com/photos/1813346/pexels-photo-1813346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "preco": 75,
+      "detalhes": [
+        "Corte adulto + corte infantil",
+        "Brinde surpresa pro pequeno",
+        "Finalização com espuma e navalha (apenas adulto)"
+      ]
+    },
+    {
+      "id": "48eb",
+      "name": "Amara Teste",
+      "preco": "100",
+      "detalhes": "111\n"
+    },
+    {
+      "id": "5ee3",
+      "name": "mihguel",
+      "preco": "666999995555",
+      "detalhes": ""
+    }
+  ]
+}

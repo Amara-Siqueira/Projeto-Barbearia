@@ -1,0 +1,22 @@
+.editInfos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    font-size: 1.5rem;    
+    margin: 2rem;
+}
+.editInfos  input {
+    display: block;
+    margin-top: 10px;
+}
+.editInfos ::placeholder {
+    font-weight: bolder;
+    color: black
+}
+.editInfos textarea {
+    display: block;
+    min-width:10vw;
+    min-height: 15vh;
+}

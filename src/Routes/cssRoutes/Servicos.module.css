@@ -1,0 +1,32 @@
+.containerServicos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+.agendar{
+    background-color: rgb(230, 79, 104);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+   margin-bottom: 15px;
+}
+li{
+    margin: 30px 20px;
+    padding: 20px;
+     border: 3px solid white;
+    border-radius: 30px;
+     
+
+}
+.detalhes{
+    max-width: 300px; /* você define o limite que quiser */
+    white-space: normal;
+    word-wrap: break-word;
+
+}
+.img{
+    border-radius: 50px;
+}

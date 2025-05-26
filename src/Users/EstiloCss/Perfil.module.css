@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+   font-size: 1.0rem;
+    background-color: #1E1E1E;
+
+}
+.titlePremium{
+   background: linear-gradient(135deg, #C49E45, #8C6B2C);
+   color: black;
+   font-size: 2.5rem;
+   text-align: center;
+}
+
+.perfil{
+    right: 0px;
+    width: 30%;
+    height: 40%;
+    padding: 12px;
+    position: absolute;
+
+}
+.menu{
+    float: right;
+    right: 3px;
+    top: -20px;
+    position: absolute;
+}

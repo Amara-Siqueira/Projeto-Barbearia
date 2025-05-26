@@ -1,0 +1,41 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Maria Silva",
+      "email": "maria@gmail.com",
+      "senha": "123456",
+      "agendamentos": [
+        {
+          "data": "2025-05-26",
+          "servico": "Corte de cabelo"
+        },
+        {
+          "date": "2025-06-10",
+          "servico": "Barba completa"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "João Souza",
+      "email": "joao@gmail.com",
+      "senha": "abcdef",
+      "agendamentos": []
+    },
+    {
+      "id": "dc53",
+      "nome": "Amara",
+      "email": "siqueira@gmail.com",
+      "senha": "amara123",
+      "confirmSenha": "amara123",
+      "dataNascimento": "2001-05-22",
+      "agendamentos": [
+        {
+          "date": "2025-05-28",
+          "servico": "Hidratação capilar"
+        }
+      ]
+    }
+  ]
+}

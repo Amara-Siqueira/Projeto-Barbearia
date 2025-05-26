@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Se quiser ocupar a tela toda: */
+    height: 100vh;  
+    background-image: url(CorteDegrade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+       backdrop-filter: blur(30px); /* Aqui aplica o blur */
+    -webkit-backdrop-filter: blur(30px); /* Para compatibilidade com Safari */
+}
+
+
+.selectServicos{
+    /* Não precisa de align-items nem justify-content se for centralizar o próprio filho.
+       Só se for um container também. */
+    /* Mas pode colocar: */
+    display: flex; 
+    flex-direction: column; /* se quiser os filhos um embaixo do outro */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5); /* 80% opaco */
+    color: black;
+    border-color: black;
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 2rem;
+}
