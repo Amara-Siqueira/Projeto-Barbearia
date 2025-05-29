@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useEffect,useState } from 'react'
 import Editar  from './Editar.module.css'
+
+
 export const EditarServicos = () => {
     const {id} = useParams()
    // const url = "" + id 

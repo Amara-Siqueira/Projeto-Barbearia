@@ -9,7 +9,7 @@ import {Login} from './Routes/Login.jsx'
 import {Servicos} from './Routes/Servicos.jsx'
 import {ErrorPage} from './Componetes/ErrorPage.jsx'
 import { Dashboard } from './Admin/Dashboard.jsx'
-import { EditarServicos } from './Admin/editarServicos.jsx'
+import { EditarServicos } from './Admin/EditarServicos.jsx'
 import { Selecionar_servicos } from './Routes/selecionar_servicos.jsx'
 
 import {Perfil} from './Users/Perfil.jsx'
