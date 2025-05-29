@@ -41,7 +41,7 @@ export const Login = () => {
   }
    }
   return (
-    <form className={style.Form}method='POST'>
+    <form className={`${style.Form } grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}method='POST'>
    <div className={style.FormLogin}>
        <label>
           Seu email: 

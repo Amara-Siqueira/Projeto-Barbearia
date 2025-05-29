@@ -26,7 +26,7 @@ export const Selecionar_servicos = () => {
   }, [url])
 
   return (
-    <div className={style.container}>
+    <div className={`${style.container}  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}>
       <div className={style.selectServicos}>
       {loading && <h1>Carregando...</h1>}
       {get && (

@@ -46,7 +46,7 @@ export const Cadastro = () => {
         
   }
   return (
-    <div className={style.container}>
+    <div className={`${style.container}  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}>
       
     <form onSubmit={handlerSubmit} className={style.form}>
      {
