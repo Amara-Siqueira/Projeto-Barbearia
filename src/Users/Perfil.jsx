@@ -74,7 +74,7 @@ try {
   };
 
   return (
-    <div className={style.container}>
+    <div className={`${style.container} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}>
        <button>
           <AiOutlineMenu 
         onClick={toggleMenu} 
@@ -84,7 +84,7 @@ try {
       />
        </button>
           {menuAberto && (
-      <div className={style.perfil}>
+      <div className={`${style.perfil} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}>
           <h1 className={style.titlePremium} >Perfil </h1>
               <div className="foto">foto de perfil   aqui</div>
                    <h2> Usuario: <strong>{name}</strong></h2>

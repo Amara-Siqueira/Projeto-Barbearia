@@ -5,7 +5,7 @@ import style from './cssRoutes/Home.module.css'
 export const Home = () => {
   return (
     <div>
-      <div className={style.banner}>
+      <div className={`${style.banner} grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}>
         <div className={style.ovelay}></div>
           <div className={style.intro}>
             <h1>Bem vindo </h1>

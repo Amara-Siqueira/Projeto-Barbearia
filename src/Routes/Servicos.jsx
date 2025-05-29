@@ -35,11 +35,11 @@ async function selectServico(id) {
 
 
   return (
-    <div className={style.containerServicos}>
+    <div className={ `${style.containerServicos}  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`}>
       {loading && <h1>Seus dados estâo carregando!</h1>}
         {
           get && get.map((dados) =>(
-            <li key={dados.id}>
+            <li key={dados.id} className="p-6">
              Seviços: <h1> {dados.name}   </h1> 
               <img src={dados.imagem} alt="bannerServiço" className={style.img} />
               <br/>
