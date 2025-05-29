@@ -16,26 +16,22 @@ export const Login = () => {
     const {name,setName} = useContext(UserContext)
     const {email,setEmail } = useContext(UserContext)
     const {date,setDate } = useContext(UserContext)
+    
   async function handlerLogin(e)  {
     e.preventDefault()
     const logando = {
         email: form.email,
         senha: form.senha
     }
-      console.log(logando)
   try {
-    // Busca usuário com email e senha no json-server
     const res = await fetch(`${Add}?email=${form.email}&senha=${form.senha}`)
     const data = await res.json()
     const usuario = data[0]
     setName(usuario.nome)
     setEmail(usuario.email)
     setDate(usuario.agendamento)
-    console.log("O state => "+date)
     if (data.length == 1) {
-      // Usuário encontrado - login OK
       alert(`Bem-vindo(a), ${data[0].nome}!`)
-      // Aqui você pode salvar estado de login, token, redirecionar etc
           navigate(`/perfil/${data[0].id}`)
     } else {
       alert("Email ou senha inválidos!")
@@ -44,10 +40,6 @@ export const Login = () => {
     alert("Erro no login: " + error)
   }
    }
-
-
-  
-   
   return (
     <form className={style.Form}method='POST'>
    <div className={style.FormLogin}>
