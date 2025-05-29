@@ -10,7 +10,7 @@ import {Servicos} from './Routes/Servicos.jsx'
 import {ErrorPage} from './Componetes/ErrorPage.jsx'
 import { Dashboard } from './Admin/Dashboard.jsx'
 import { EditarServicos } from './Admin/EditarServicos.jsx'
-import { Selecionar_servicos } from './Routes/selecionar_servicos.jsx'
+import { Selecionar_servicos } from './Routes/Selecionar_servicos.jsx'
 
 import {Perfil} from './Users/Perfil.jsx'
 import { UserContextProvider } from './context/UserContext.jsx'
